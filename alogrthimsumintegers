@@ -1,0 +1,14 @@
+
+
+def solveMeFirst(a,b):
+#write your logic
+#we can add the values 
+    res=a+b
+    #return the values to the res
+    return res
+
+
+num1 = int(input())
+num2 = int(input())
+res = solveMeFirst(num1,num2)
+print(res)
