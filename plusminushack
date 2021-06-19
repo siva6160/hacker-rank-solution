@@ -1,0 +1,17 @@
+l=list(map(int,input().split()))
+ps=0
+ns=0
+zs=0
+for i in l:
+   # print(i)
+    if i>0:
+        ps+=1
+    elif i<0:
+        ns+=1
+    elif i==0:
+        zs+=1
+l1=len(l)
+print(ps/l1)
+print(ns/l1)
+print(zs/l1)
+print(len(l))
