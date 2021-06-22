@@ -1,0 +1,7 @@
+def split_and_join(line):
+    # write your code here
+    #result=line.splitlines()
+    result="-".join(line.split())
+    return result
+
+if __name__ == '__main__':
